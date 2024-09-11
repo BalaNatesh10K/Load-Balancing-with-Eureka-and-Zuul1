@@ -1,0 +1,6 @@
+com\user\household\service\ApplicationService.class
+com\user\HouseholdApplication.class
+com\user\household\repository\ApplicationEntityRepository.class
+com\user\household\model\ApplicationEntity.class
+com\user\household\web\ApplianceController.class
+com\user\household\model\ApplicationEntityDTO.class
