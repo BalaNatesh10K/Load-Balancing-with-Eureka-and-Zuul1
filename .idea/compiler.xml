@@ -12,8 +12,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaserver" />
         <module name="household" />
-        <module name="zuulproxy" />
         <module name="service" />
+        <module name="zuulproxy" />
       </profile>
     </annotationProcessing>
   </component>
@@ -22,6 +22,7 @@
       <module name="eurekaserver" options="-parameters" />
       <module name="household" options="-parameters" />
       <module name="service" options="-parameters" />
+      <module name="zuulproxy" options="-parameters" />
     </option>
   </component>
 </project>
