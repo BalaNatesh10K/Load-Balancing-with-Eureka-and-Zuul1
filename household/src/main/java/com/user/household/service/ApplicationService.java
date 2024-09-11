@@ -54,7 +54,7 @@ public class ApplicationService {
         return getDetails(applicationEntityRepository.getOne(serialId));
     }
 
-    public Map<String, Boolean> deleteBy(Integer id){
+    public Map<String, Boolean> deleteById(Integer id){
         ApplicationEntity applicationEntity = applicationEntityRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Appliance name not found with id: "+id));
 
         applicationEntityRepository.delete(applicationEntity);
