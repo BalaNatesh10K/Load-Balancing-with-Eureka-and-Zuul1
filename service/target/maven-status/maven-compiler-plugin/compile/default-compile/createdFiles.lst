@@ -1,0 +1,4 @@
+com\user\service\feignservice\ResourceFeignService.class
+com\user\service\dto\ApplianceUserDTO.class
+com\user\service\controller\ResourceController.class
+com\user\service\ServiceApplication.class

@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/appliance")
 public class ApplianceController {
 
     @Autowired
@@ -21,7 +21,7 @@ public class ApplianceController {
         return applicationService.getById(id);
     }
 
-    @GetMapping("/getByName/{applianceName}")
+    @GetMapping("/getByName/{name}")
     public List<ApplicationEntityDTO> getDetailsById(@PathVariable String name){
         return applicationService.getByApplianceName(name);
     }
